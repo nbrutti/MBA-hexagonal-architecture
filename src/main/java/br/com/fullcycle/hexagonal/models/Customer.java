@@ -7,7 +7,7 @@ import jakarta.persistence.Table;
 
 import java.util.Objects;
 
-import static jakarta.persistence.GenerationType.*;
+import static jakarta.persistence.GenerationType.IDENTITY;
 
 @Entity
 @Table(name = "customers")
